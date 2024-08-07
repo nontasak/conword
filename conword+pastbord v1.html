@@ -9,7 +9,7 @@
     <title>Conword</title>
     <link rel="icon" href="./icon.png">
     <div class="footer">
-      เวอร์ชัน 02.02.00  07/08/67 
+      เวอร์ชัน 02.02.01  07/08/67 
     </div>
     <style>
       body {
@@ -527,7 +527,7 @@ window.onload = function() {
     var newText = text.substring(0, selectionStart) + newItemText + text.substring(selectionEnd, text.length);
     textEditor.value = newText;
 
-    // บันทึกข้อความที่ถูกเพิ่มใหม่ลงใน localStorage
+    // บันทึกข้อความที่ถูกเพิ่มใหม่ลงใน localStorage 
     saveToLocalStorage(textEditor.value);
     textEditor.focus();
     }
